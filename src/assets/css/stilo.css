@@ -1,0 +1,628 @@
+body {
+  background: rgb(39, 83, 140);
+  background: linear-gradient(
+    90deg,
+    rgba(39, 83, 140, 1) 39%,
+    rgb(35, 105, 133) 79%
+  );
+}
+/*aqui ficam os códigos da página de login*/
+.inputf{
+   display: inline-block !important;
+    border-color: rgb(30, 72, 121);
+ cursor: text;
+     -moz-box-shadow: 0 0 8px black;
+    box-shadow: 0 0 8px black !important;
+ 
+  
+}
+ 
+#tela {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  min-height: 500px;
+  box-shadow: 1px 1px 20px black;
+  border-radius: 20px;
+}
+
+#ladoa {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+  width: 40%;
+  height: 500px;
+  align-content: center;
+  background-color: lightgray;
+  font-family: 'times';
+}
+
+#ladob {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 60%;
+  height: 500px;
+  background-color: lightslategrey;
+}
+#imgPC {
+  margin-left: 15%;
+  margin-top: -95%;
+}
+#imgUSER {
+  margin-top: -35%;
+  margin-left: 35%;
+}
+.form-row {
+  font-family: calibri;
+}
+#btnEntrar {
+  background-color: #27538c;
+}
+#btnEntrar:hover {
+  background-color: #163257;
+  color: gray;
+}
+.texto {
+  opacity: 0;
+  margin-top: 25%;
+  width: 95%;
+}
+.subTexto {
+  margin-top: -10%;
+}
+.texto {
+  margin-left: 1%;
+  color: black;
+  font-size: 18px;
+}
+#ladoa:hover .texto {
+  opacity: 100%;
+  position: relative;
+}
+#ladoa:hover .subTexto {
+  opacity: 0.2;
+}
+#Tecnicos{
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px black;
+  width: 90%;
+   height: 1000px;
+   flex-wrap: wrap;
+}
+#formL{
+  width: 50%;
+  
+  flex-direction: row ;
+  border-right: 1px solid black;
+  box-shadow: 1px 1 8px black;
+
+}
+#formR{
+  position: above;
+  width: 50%;
+ }
+.input{
+  width: 70%;
+  margin-top: 2%;
+   
+}
+ 
+#bts{
+   margin-top: 10%;
+   width: 100%;
+ display: flex;
+ height: 10%;
+ justify-content: center  ;
+ flex-wrap: wrap;
+
+ 
+} 
+#Tabela{
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+ 
+@media (max-width: 1152px) {
+
+  .subTexto {
+    width: 90%;
+    font-size: 16px;
+    margin-left: 3%;
+  }
+  #txt_empresa {
+    font-size: 30px;
+   }
+
+  #ladoa {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    width: 40%;
+    height: 480px;
+    align-content: center;
+    background-color: lightgray;
+    font-family: 'times';
+  }
+
+  #ladob {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 60%;
+    height: 480px;
+    background-color: lightslategrey;
+  }
+  .subTexto {
+    margin-top: -50%;
+  }
+}
+@media (max-width: 849px) {
+  #formulario{
+    width: 70%;
+      
+  }
+  .subTexto {
+    width: 90%;
+    font-size: 16px;
+  }
+  #txt_empresa {
+    font-size: 28px;
+  }
+
+  .subTexto {
+    margin-left: 2%;
+    margin-top: -90%;
+  }
+  .texto {
+    margin-left: 1%;
+    color: black;
+    font-size: 17px;
+  }
+}
+
+
+@media (max-width: 819px) {
+   
+  .texto {
+    margin-left: 1%;
+    color: black;
+    font-size: 17px;
+    margin-top: 0%;
+  }
+  #imgPC {
+    margin-left: 15%;
+    margin-top: -90%;
+  }
+  .subTexto {
+    width: 90%;
+    font-size: 16px;
+  }
+  #txt_empresa {
+    font-size: 25px;
+  }
+
+  .subTexto {
+    font-size: 16px;
+    margin-left: 2%;
+    margin-top: -50%;
+  }
+
+}
+
+@media (max-width: 739px) {
+ 
+  .texto {
+    margin-left: 1%;
+    color: black;
+    font-size: 15px;
+     
+  }
+  #imgPC {
+    margin-left: 15%;
+    margin-top: -90%;
+  }
+  .subTexto {
+    width: 90%;
+    font-size: 16px;
+  }
+  #txt_empresa {
+    font-size: 22px;
+  }
+
+  .subTexto {
+    font-size: 12px;
+    margin-left: 2%;
+    margin-top: -100%;
+  }
+  
+  #ladoa {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    width: 40%;
+    height: 440px;
+    align-content: center;
+    background-color: lightgray;
+    font-family: 'times';
+  }
+
+  #ladob {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 60%;
+    height: 440px;
+    background-color: lightslategrey;
+  }
+  
+#tela {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  min-height: 450px;
+  box-shadow: 1px 1px 20px black;
+  border-radius: 20px;
+}
+#imgPC {
+  margin-left: 15%;
+  margin-top: -100%;
+}
+}
+
+
+@media (max-width: 669px) {
+  
+ 
+  .texto {
+    margin-left: 1%;
+    color: black;
+    font-size: 12px;
+    margin-top: -00%;
+  }
+  #imgPC {
+    margin-left: 15%;
+    margin-top: -90%;
+  }
+  .subTexto {
+    width: 90%;
+    font-size: 16px;
+  }
+  #txt_empresa {
+    font-size: 20px;
+  }
+
+  .subTexto {
+    font-size: 10px;
+    margin-left: 2%;
+    margin-top: -50%;
+  }
+  
+  #ladoa {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    width: 40%;
+    height: 400px;
+    align-content: center;
+    background-color: lightgray;
+    font-family: 'times';
+  }
+
+  #ladob {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 60%;
+    height: 400px;
+    background-color: lightslategrey;
+  }
+  
+#tela {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  min-height: 400px;
+  box-shadow: 1px 1px 20px black;
+  border-radius: 20px;
+}
+#imgPC {
+  margin-left: 15%;
+  margin-top: -100%;
+}
+}
+
+
+
+@media (max-width: 600px) {
+ 
+  .texto {
+    margin-left: 1%;
+    color: black;
+    font-size: 10px;
+     
+  }
+  #imgPC {
+    margin-left: 15%;
+    margin-top: -90%;
+  }
+  .subTexto {
+    width: 90%;
+    font-size: 16px;
+  } 
+  #txt_empresa {
+    font-size: 15px;
+  }
+
+  .subTexto {
+    font-size: 9px;
+    margin-left: 2%;
+    margin-top: -40%;
+  }
+  
+  #ladoa {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    width: 40%;
+    height: 400px;
+    align-content: center;
+    background-color: lightgray;
+    font-family: 'times';
+  }
+
+  #ladob {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 60%;
+    height: 400px;
+    background-color: lightslategrey;
+  }
+  
+#tela {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  min-height: 400px;
+  box-shadow: 1px 1px 20px black;
+  border-radius: 20px;
+}
+#imgPC {
+  margin-left: 15%;
+  margin-top: -120%;
+}
+}
+
+@media (max-width: 560px) {
+  
+  .texto {
+    margin-left: 1%;
+    color: black;
+    font-size: 10px;
+    margin-top: -00%;
+  }
+  #imgPC {
+    margin-left: 15%;
+    margin-top: -90%;
+  }
+  .subTexto {
+    width: 90%;
+    font-size: 16px;
+  } 
+  #txt_empresa {
+    font-size: 15px;
+  }
+
+  .subTexto {
+    font-size: 8px;
+    margin-left: 2%;
+    margin-top: -50%;
+  }
+  
+  #ladoa {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    width: 40%;
+    height: 350px;
+    align-content: center;
+    background-color: lightgray;
+    font-family: 'times';
+  }
+
+  #ladob {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 60%;
+    height: 350px;
+    background-color: lightslategrey;
+  }
+  
+#tela {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  min-height: 350px;
+  box-shadow: 1px 1px 20px black;
+  border-radius: 20px;
+}
+#imgPC {
+  margin-left: 15%;
+  margin-top: -120%;
+}
+#Tabela{
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+ flex-wrap: wrap;
+ flex-direction: column;  
+}
+
+#LadoE{
+  
+   text-align: center;
+   height: 10%;
+   align-content: center;
+   font-family: 'times';
+ 
+
+ }
+ #LadoD{
+ 
+  text-align: center;
+  height: 10%;
+  align-content: center;
+  font-family: 'times';
+ 
+ }
+ 
+}
+  
+#navbar{
+  text-align: center;
+  font-family:initial;
+}
+#fundo{
+  position: relative;
+ background-color:white;
+width: 100%;
+min-height: 700vh;
+
+}
+#TelaNovoRegistro{
+  
+ width: 100%;
+ min-height: 500px;
+ display: flex;
+ 
+} 
+#title_container{
+
+  width: 80%;
+   text-align: center;
+   height:40px;
+   border-radius: 10px;
+ }
+ #titulo{
+   font-size: 18px;
+   margin-top: -1%;
+ }
+ #inputs{
+  width:80%;
+  margin-left: 1%;
+  border-radius: 10px;
+  box-shadow: 1px 1px  5px black;
+
+
+ }
+#Cadastrar{
+  margin-top: -10%;
+
+  position: absolute;
+  width:40%;
+ margin-left: 10%;
+ border-radius: 10px;
+ box-shadow: 1px 1px  5px black;
+background-color: white;
+min-height: 20vh;
+
+}
+ 
+ #BotaoCadastrar{
+  width:20%;
+  margin-left: 1%;
+  border-radius: 10px;
+  box-shadow: 1px 1px  5px black;
+
+ }
+
+ #botao{
+   margin-left: 2%;
+ } 
+
+ #pesquisa{
+   position: relative
+ }
+
+ #LadoE{
+ 
+  text-align: center;
+  width: 50%;
+  height: 500px;
+  align-content: center;
+   font-family: 'times';
+ 
+
+ }
+ #LadoD{
+ 
+  text-align: center;
+  width: 50%;
+  height: 500px;
+  align-content: center;
+   font-family: 'times';
+ border-left:1px solid lightgray ;
+
+ }
+li{
+   text-decoration: none;
+   background-color: red;
+ }
+ ul{
+   text-decoration: none;
+ }
+
+ #input{
+
+  border: 1px solid black;
+    margin-top: 5%;
+   width: 70%;
+   border-radius: 5px;
+   box-shadow: 1px 1px 12px gray !important;
+
+  }
+ #lista{
+   
+  margin-top: 4%;
+  width: 80%;
+margin-left: 10%;
+ } 
+
+ .toggle{
+   display:none;
+   width: 100%;
+
+
+   
+ 
+  }
+
+ .checked{
+   display: flex;
+   
+ }
+ .Item-container{
+   width: 100%;
+ }
+#inputvalue{
+   text-align: center;
+   font-size: 19px;
+   font-family: cambria;
+ }
+ #relatorio{
+   width: 80%;
+   min-height: 500px;
+   background-color: #163257;
+   margin-left: 10%;
+ }
