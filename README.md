@@ -1,3 +1,6 @@
+![Screenshot](projeto.png)
+
+
 # Getting Started with Create React App
 
 Foram utilizados os recursos: React router, Styled Componentes, Hooks, Event, Context api entre outros.
